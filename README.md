@@ -29,7 +29,7 @@
 
 <div style="display: flex; align-items: flex-start;">
   <div style="flex: 1;">
-    <img src="https://avatars.githubusercontent.com/u/117599733?v=4" width="250" alt="Vivek Rajput"/>
+    <img src="[https://avatars.githubusercontent.com/u/117599733?v=4](https://avatars.githubusercontent.com/u/167712861?s=400&u=dba12eb5d261c8faa398548b2157e9eb30191614&v=4)" width="250" alt="Vivek Rajput"/>
   </div>
   <div style="flex: 2; padding-left: 20px;">
     <h2>Hello!</h2>
