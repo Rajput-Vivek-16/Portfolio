@@ -7,47 +7,18 @@
     body {
       font-family: Arial, sans-serif;
       line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      scroll-behavior: smooth;
+      margin: 20px;
     }
-
-    nav {
-      background-color: #0077B5;
-      padding: 10px 20px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-    }
-
-    nav a {
-      color: white;
-      margin-right: 20px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      padding: 20px;
-    }
-
     h2, h3 {
       color: #0077B5;
     }
-
     ul {
       list-style-type: none;
       padding-left: 0;
     }
-
     li {
       margin-bottom: 10px;
     }
-
     img {
       max-width: 100%;
       height: auto;
@@ -56,110 +27,99 @@
 </head>
 <body>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#academics">Academics</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#experience">Experience</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<div class="container">
-  <div style="display: flex; align-items: flex-start;">
-    <div style="flex: 1;">
-      <img src="https://avatars.githubusercontent.com/u/117599733?v=4" width="250" alt="Vivek Rajput"/>
-    </div>
-    <div style="flex: 2; padding-left: 20px;">
-      <h2>Hello!</h2>
-      <p>I am <strong>Vivek Rajput</strong>, a junior undergraduate majoring in <strong>Chemical Engineering</strong> with a minor in <strong>Computer Science and Engineering</strong> at the <strong>Indian Institute of Technology Gandhinagar</strong>.</p>
-
-      <h3 id="academics">Academic Details</h3>
-      <ul>
-        <li><strong>B.Tech, IIT Gandhinagar (2023-Present):</strong> 8.5 CPI</li>
-        <li><strong>Class XII, Riverdale Academy (2022-2023):</strong> 73.5%</li>
-        <li><strong>Class X, Good Shepherd Mission School (2020-2021):</strong> 92%</li>
-      </ul>
-
-      <h3 id="about">About Me</h3>
-      <ul>
-        <li>🔬 Research Intern under Prof. Nitin Padhiyar on solar distillation and sustainable water purification.</li>
-        <li>⚙️ Interested in <strong>simulation, data modeling, clean tech, and sustainable systems</strong>.</li>
-        <li>🌱 Currently learning and applying concepts in <strong>CFD, MATLAB modeling</strong>, and <strong>process design</strong>.</li>
-        <li>📫 Contact me: <a href="mailto:rajput.vivek@iitgn.ac.in">rajput.vivek@iitgn.ac.in</a></li>
-      </ul>
-
-      <h3 id="skills">Skills</h3>
-      <ul>
-        <li><strong>Languages & Libraries:</strong> Python, C, C++, MATLAB, Cantera, NumPy, Pandas, Matplotlib</li>
-        <li><strong>Tools:</strong> Simulink, Ansys Fluent, DWSIM, Autodesk Inventor, Polymath</li>
-      </ul>
-
-      <h3>Resume</h3>
-      <a href="https://drive.google.com/file/d/1Jxf995kEH8P_aYu-2pMo7aGdfzOOPI45/view?usp=drive_link" target="_blank">Click here to view my resume</a>
-
-      <h3 id="contact">Connect with Me</h3>
-      <p>
-        <a href="https://www.linkedin.com/in/vivek-rajput-iitgn2ndyear/">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="https://github.com/Rajput-Vivek-16">
-          <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-        </a>
-        <a href="mailto:rajput.vivek@iitgn.ac.in">
-          <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-        </a>
-      </p>
-    </div>
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+    <img src="https://avatars.githubusercontent.com/u/117599733?v=4" width="250" alt="Vivek Rajput"/>
   </div>
+  <div style="flex: 2; padding-left: 20px;">
+    <h2>Hello!</h2>
+    <p>I am <strong>Vivek Rajput</strong>, a junior undergraduate majoring in <strong>Chemical Engineering</strong> with a minor in <strong>Computer Science and Engineering</strong> at the <strong>Indian Institute of Technology Gandhinagar</strong>.</p>
 
-  <hr>
+    <h3>Academic Details</h3>
+    <ul>
+      <li><strong>B.Tech, IIT Gandhinagar (2023-Present):</strong> 8.5 CPI</li>
+      <li><strong>Class XII, Riverdale Academy (2022-2023):</strong> 73.5%</li>
+      <li><strong>Class X, Good Shepherd Mission School (2020-2021):</strong> 92%</li>
+    </ul>
 
-  <h3 id="experience">Work Experience</h3>
-  <ul>
-    <li><strong>Research Intern | IIT Gandhinagar [May 2025 – Present]</strong><br>
-      Worked on solar distillation system optimization, achieving 60.8°C water temperature and 85 ppm TDS. Developed MATLAB models to compute optimal solar tilt and azimuth.
-    </li>
-  </ul>
+    <h3>About Me</h3>
+    <ul>
+      <li>🔬 Research Intern under Prof. Nitin Padhiyar on solar distillation and sustainable water purification.</li>
+      <li>⚙️ Interested in <strong>simulation, data modeling, clean tech, and sustainable systems</strong>.</li>
+      <li>🌱 Currently learning and applying concepts in <strong>CFD, MATLAB modeling</strong>, and <strong>process design</strong>.</li>
+      <li>📫 Contact me: <a href="mailto:rajput.vivek@iitgn.ac.in">rajput.vivek@iitgn.ac.in</a></li>
+    </ul>
 
-  <h3 id="projects">Projects</h3>
-  <ul>
-    <li><strong>Pressure-Driven Water Purifier [Dec 2024 – Apr 2025]</strong><br>
-      Designed an electricity-free portable purifier targeting disaster zones. Achieved 60.2% arsenic and 92.5% dye removal.<br>
-      <a href="https://drive.google.com/file/d/1qQmll2uqGeAE4O08xExXte8FdPjkf58I/view?usp=drive_link">[Poster]</a>
-    </li>
-    <li><strong>Heat Transfer in an Agitated Vessel [Jan – Apr 2025]</strong><br>
-      Analyzed heat transfer with varying RPM and demonstrated 50% improvement using Google Colab.<br>
-      <a href="https://drive.google.com/file/d/15oSdfXY2iNK8QRfm9rLbq_J4oNDaN1q1/view?usp=drive_link">[Report]</a>
-    </li>
-    <li><strong>CFD Simulation of Laminar Flow [Mar 2025]</strong><br>
-      Simulated flow of water, ethanol, and mercury in ANSYS Fluent at Re = 1000 and studied convergence and velocity profiles.<br>
-      <a href="https://drive.google.com/file/d/1QbA_bR-FD4nqH2EJPNZqkGi18RdRluQi/view?usp=drive_link">[Report]</a>
-    </li>
-  </ul>
+    <h3>Skills</h3>
+    <ul>
+      <li><strong>Languages & Libraries:</strong> Python, C, C++, MATLAB, Cantera, NumPy, Pandas, Matplotlib</li>
+      <li><strong>Tools:</strong> Simulink, Ansys Fluent, DWSIM, Autodesk Inventor, Polymath</li>
+    </ul>
 
-  <h3>Positions of Responsibility</h3>
-  <ul>
-    <li><strong>Technical Officer, SEC, IITGN [Jan 2025 – Present]</strong> – Built secure MongoDB-backed voting system and managed election-day tech.</li>
-    <li><strong>Senior Tech Team, EII, IITGN [Sep 2024 – Apr 2025]</strong> – Developed E-Summit website and team section UI.</li>
-  </ul>
+    <h3>Resume</h3>
+    <a href="https://drive.google.com/file/d/1Jxf995kEH8P_aYu-2pMo7aGdfzOOPI45/view?usp=drive_link" target="_blank">Click here to view my resume</a>
 
-  <h3>Achievements</h3>
-  <ul>
-    <li><strong>Yuva Unstoppable Scholar</strong> – Selected based on academic merit and interview. [Jun 2022 – Present]</li>
-  </ul>
-
-  <h3>Extra-Curricular Activities</h3>
-  <ul>
-    <li>🏆 Participated in SIH 2024, built a disaster-response platform with AI chatbot.</li>
-    <li>🧑‍🏫 JEE Mentor at Physics Wallah; mentored 500+ students [May – Oct 2024]</li>
-    <li>🎓 Volunteered at IITGN's Convocation, Nanomaterials Workshop, and Curiosity Carnival.</li>
-  </ul>
-
-  <hr>
-
-  <p>Feel free to connect or collaborate with me!</p>
+    <h3>Connect with Me</h3>
+    <p>
+      <a href="https://www.linkedin.com/in/vivek-rajput-iitgn2ndyear/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/Rajput-Vivek-16">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      </a>
+      <a href="mailto:rajput.vivek@iitgn.ac.in">
+        <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+      </a>
+    </p>
+  </div>
 </div>
+
+<hr>
+
+<h3>Work Experience</h3>
+<ul>
+  <li><strong>Research Intern | IIT Gandhinagar [May 2025 – Present]</strong><br>
+    Worked on solar distillation system optimization, achieving 60.8°C water temperature and 85 ppm TDS. Developed MATLAB models to compute optimal solar tilt and azimuth.
+  </li>
+</ul>
+
+<h3>Projects</h3>
+<ul>
+  <li><strong>Pressure-Driven Water Purifier [Dec 2024 – Apr 2025]</strong><br>
+    Designed an electricity-free portable purifier targeting disaster zones. Achieved 60.2% arsenic and 92.5% dye removal.<br>
+    <a href="https://drive.google.com/file/d/1qQmll2uqGeAE4O08xExXte8FdPjkf58I/view?usp=drive_link">[Poster]</a>
+  </li>
+  <li><strong>Heat Transfer in an Agitated Vessel [Jan – Apr 2025]</strong><br>
+    Analyzed heat transfer with varying RPM and demonstrated 50% improvement using Google Colab.<br>
+    <a href="https://drive.google.com/file/d/15oSdfXY2iNK8QRfm9rLbq_J4oNDaN1q1/view?usp=drive_link">[Report]</a>
+  </li>
+  <li><strong>CFD Simulation of Laminar Flow [Mar 2025]</strong><br>
+    Simulated flow of water, ethanol, and mercury in ANSYS Fluent at Re = 1000 and studied convergence and velocity profiles.<br>
+    <a href="https://drive.google.com/file/d/1QbA_bR-FD4nqH2EJPNZqkGi18RdRluQi/view?usp=drive_link">[Report]</a>
+  </li>
+</ul>
+
+<h3>Positions of Responsibility</h3>
+<ul>
+  <li><strong>Technical Officer, SEC, IITGN [Jan 2025 – Present]</strong> – Built secure MongoDB-backed voting system and managed election-day tech.</li>
+  <li><strong>Senior Tech Team, EII, IITGN [Sep 2024 – Apr 2025]</strong> – Developed E-Summit website and team section UI.</li>
+</ul>
+
+<h3>Achievements</h3>
+<ul>
+  <li><strong>Yuva Unstoppable Scholar</strong> – Selected based on academic merit and interview. [Jun 2022 – Present]</li>
+</ul>
+
+<h3>Extra-Curricular Activities</h3>
+<ul>
+  <li>🏆 Participated in SIH 2024, built a disaster-response platform with AI chatbot.</li>
+  <li>🧑‍🏫 JEE Mentor at Physics Wallah; mentored 500+ students [May – Oct 2024]</li>
+  <li>🎓 Volunteered at IITGN's Convocation, Nanomaterials Workshop, and Curiosity Carnival.</li>
+</ul>
+
+<hr>
+
+<p>Feel free to connect or collaborate with me!</p>
 
 </body>
 </html>
