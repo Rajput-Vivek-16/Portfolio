@@ -57,7 +57,7 @@
     </ul>
 
     <h3>Resume</h3>
-    <a href="https://drive.google.com/file/d/1Jxf995kEH8P_aYu-2pMo7aGdfzOOPI45/view?usp=drive_link" target="_blank">Click here to view my resume</a>
+    <a href="https://drive.google.com/file/d/1xhVtNKA13tUvikCS99Rl_3p2jB-O4hdj/view" target="_blank">Click here to view my resume</a>
 
     <h3>Connect with Me</h3>
     <p>
@@ -78,8 +78,14 @@
 
 <h3>Work Experience</h3>
 <ul>
-  <li><strong>Research Intern | IIT Gandhinagar [May 2025 – Present]</strong><br>
-    Worked on solar distillation system optimization, achieving 60.8°C water temperature and 85 ppm TDS. Developed MATLAB models to compute optimal solar tilt and azimuth.
+  <li>
+    <strong>Research Intern | IIT Gandhinagar [May 2025 – Present]</strong><br>
+    <ul>
+      <li>◦ Designed and improved a double-slope solar still setup (20L capacity) in collaboration with a teammate; iteratively modified the system based on experimental observations to achieve 100°C basin water temperature.</li>
+      <li>◦ Achieved a maximum water temperature of 60.8°C with 85 ppm TDS in solar distillation experiments; conducted multiple experimental trials and iteratively improved the setup based on observations.</li>
+      <li>◦ Made multiple versions of MATLAB code through literature review to compute optimal tilt and azimuth angles for solar vacuum tube orientation.</li>
+      <li>◦ Attempted to model the system to estimate daily water purification based on location and date, but faced challenges due to reliance on experimental data such as solar radiation and temperature.</li>
+    </ul>
   </li>
 </ul>
 
@@ -87,15 +93,15 @@
 <ul>
   <li><strong>Pressure-Driven Water Purifier [Dec 2024 – Apr 2025]</strong><br>
     Designed an electricity-free portable purifier targeting disaster zones. Achieved 60.2% arsenic and 92.5% dye removal.<br>
-    <a href="https://drive.google.com/file/d/1qQmll2uqGeAE4O08xExXte8FdPjkf58I/view?usp=drive_link">[Poster]</a>
+    <a href="https://drive.google.com/file/d/1Jxf995kEH8P_aYu-2pMo7aGdfzOOPI45/view">[Poster]</a>
   </li>
   <li><strong>Heat Transfer in an Agitated Vessel [Jan – Apr 2025]</strong><br>
     Analyzed heat transfer with varying RPM and demonstrated 50% improvement using Google Colab.<br>
-    <a href="https://drive.google.com/file/d/15oSdfXY2iNK8QRfm9rLbq_J4oNDaN1q1/view?usp=drive_link">[Report]</a>
+    <a href="https://drive.google.com/file/d/1qQmll2uqGeAE4O08xExXte8FdPjkf58I/view">[Report]</a>
   </li>
   <li><strong>CFD Simulation of Laminar Flow [Mar 2025]</strong><br>
     Simulated flow of water, ethanol, and mercury in ANSYS Fluent at Re = 1000 and studied convergence and velocity profiles.<br>
-    <a href="https://drive.google.com/file/d/1QbA_bR-FD4nqH2EJPNZqkGi18RdRluQi/view?usp=drive_link">[Report]</a>
+    <a href="https://drive.google.com/file/d/15oSdfXY2iNK8QRfm9rLbq_J4oNDaN1q1/view">[Report]</a>
   </li>
 </ul>
 
