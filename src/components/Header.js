@@ -9,12 +9,10 @@ const Header = () => {
           <img src={process.env.PUBLIC_URL + "/Vivek.png"} width="250" alt="Vivek Rajput" />
         </div>
         <div className="header-text">
-          <h1>Hello!</h1>
-          <p>
-            I am <strong>Vivek Rajput</strong>, a junior undergraduate majoring in{' '}
-            <strong>Chemical Engineering</strong> with a minor in{' '}
-            <strong>Computer Science and Engineering</strong> at the{' '}
-            <strong>Indian Institute of Technology Gandhinagar</strong>.
+          <h1>Hi There,</h1>
+          <h2>I'm <span className="highlight">Vivek</span> Rajput</h2>
+          <p className="intro-text">
+            I Am Into <strong>Chemical Engineering</strong> & <strong>Web Development</strong>
           </p>
           
           <div className="academic-details">
