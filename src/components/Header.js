@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header-section">
       <div className="header-content">
         <div className="profile-image">
-          <img src="./Vivek.png" width="250" alt="Vivek Rajput" />
+          <img src={process.env.PUBLIC_URL + "/Vivek.png"} width="250" alt="Vivek Rajput" />
         </div>
         <div className="header-text">
           <h1>Hello!</h1>
