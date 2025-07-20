@@ -1,0 +1,97 @@
+.header-section {
+  padding: 40px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.profile-image {
+  flex: 0 0 auto;
+}
+
+.profile-image img {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-image img:hover {
+  transform: scale(1.05);
+}
+
+.header-text {
+  flex: 1;
+}
+
+.header-text h1 {
+  font-size: 3rem;
+  color: #0077B5;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.header-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.academic-details {
+  margin-bottom: 30px;
+}
+
+.academic-details h3 {
+  color: #0077B5;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.academic-details ul {
+  padding-left: 20px;
+}
+
+.academic-details li {
+  margin-bottom: 8px;
+  padding: 5px 0;
+  border-left: 3px solid #0077B5;
+  padding-left: 15px;
+  margin-left: 10px;
+}
+
+.quick-links {
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .profile-image img {
+    width: 200px;
+  }
+  
+  .header-text h1 {
+    font-size: 2rem;
+  }
+  
+  .header-text p {
+    font-size: 1rem;
+  }
+  
+  .academic-details li {
+    margin-left: 0;
+  }
+}
