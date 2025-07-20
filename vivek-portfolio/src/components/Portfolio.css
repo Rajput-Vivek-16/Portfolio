@@ -1,0 +1,153 @@
+.portfolio {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  flex: 1;
+  min-width: 250px;
+}
+
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-info {
+  flex: 2;
+  min-width: 300px;
+}
+
+.portfolio h2, 
+.portfolio h3 {
+  color: #0077B5;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.portfolio h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.portfolio h3 {
+  font-size: 1.3rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.3rem;
+}
+
+.portfolio ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.portfolio li {
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
+.work-experience ul ul,
+.projects ul,
+.positions-of-responsibility ul,
+.achievements ul,
+.extra-curricular-activities ul {
+  padding-left: 1.5rem;
+}
+
+.work-experience ul ul li {
+  list-style-type: disc;
+  padding-left: 0.5rem;
+}
+
+.portfolio a {
+  color: #0077B5;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.portfolio a:hover {
+  color: #005885;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-links img {
+  transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+  transform: scale(1.05);
+}
+
+.portfolio hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #0077B5, #e0e0e0);
+  margin: 2rem 0;
+}
+
+.portfolio section {
+  margin-bottom: 2rem;
+}
+
+.portfolio strong {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .profile-image {
+    order: -1;
+  }
+  
+  .portfolio {
+    margin: 10px;
+    padding: 15px;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+}
+
+/* Additional styling for better visual hierarchy */
+.portfolio > p:last-child {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #0077B5;
+}
