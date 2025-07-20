@@ -25,14 +25,17 @@ const Header = () => {
           </div>
 
           <div className="quick-links">
+            <button 
+              className="button primary" 
+              onClick={() => document.getElementById('about').scrollIntoView({ behavior: 'smooth' })}
+            >
+              About Me
+            </button>
             <a href="https://drive.google.com/file/d/1xhVtNKA13tUvikCS99Rl_3p2jB-O4hdj/view" 
                target="_blank" 
                rel="noopener noreferrer" 
-               className="button">
+               className="button secondary">
               View Resume
-            </a>
-            <a href="mailto:rajput.vivek@iitgn.ac.in" className="button">
-              Contact Me
             </a>
           </div>
 

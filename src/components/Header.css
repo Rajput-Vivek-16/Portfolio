@@ -80,6 +80,44 @@
 
 .quick-links {
   margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.button {
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  border: 2px solid #0077B5;
+  display: inline-block;
+  text-align: center;
+}
+
+.button.primary {
+  background: #0077B5;
+  color: white;
+}
+
+.button.primary:hover {
+  background: #005582;
+  border-color: #005582;
+  transform: translateY(-2px);
+}
+
+.button.secondary {
+  background: transparent;
+  color: #0077B5;
+}
+
+.button.secondary:hover {
+  background: #0077B5;
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .social-links {
@@ -109,5 +147,15 @@
   
   .academic-details li {
     margin-left: 0;
+  }
+  
+  .quick-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .button {
+    width: 200px;
   }
 }
