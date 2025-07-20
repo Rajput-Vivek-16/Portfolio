@@ -1,106 +1,41 @@
-# Vivek Rajput - Portfolio
+# Vivek Rajput – Portfolio
 
-A modern, responsive React.js portfolio website for Vivek Rajput, a Chemical Engineering student at IIT Gandhinagar.
+A responsive and modern React.js portfolio highlighting my academic journey, technical expertise, and impactful projects.
 
-![Profile](./public/Vivek.png)
-
-## About
-
-This portfolio showcases my academic journey, research experience, projects, and achievements. I'm a junior undergraduate majoring in **Chemical Engineering** with a minor in **Computer Science and Engineering** at the **Indian Institute of Technology Gandhinagar**.
-
-## Features
-
-- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Modern UI**: Clean, professional design with smooth animations
-- **Interactive Components**: Hover effects and transitions
-- **Fast Loading**: Optimized React components
-- **Accessible**: Semantic HTML and proper contrast ratios
-
-## Tech Stack
-
-- **Frontend**: React.js, CSS3, HTML5
-- **Styling**: Custom CSS with Flexbox and CSS Grid
-- **Icons**: Unicode emojis and social media badges
-- **Build Tool**: Create React App
-
-## Sections
-
-1. **Header**: Introduction, academic details, and quick links
-2. **About Me**: Research interests and technical skills
-3. **Work Experience**: Research internship details
-4. **Projects**: Key projects with links to documentation
-5. **Positions of Responsibility**: Leadership roles
-6. **Achievements**: Academic and professional recognition
-7. **Extra-Curricular Activities**: Community involvement
-8. **Footer**: Contact information and call-to-action
-
-## 🌐 Live Portfolio
-
-**Visit the live portfolio**: [https://rajput-vivek-16.github.io/Portfolio](https://rajput-vivek-16.github.io/Portfolio)
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/Rajput-Vivek-16/Portfolio.git
-cd Portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm start
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-### Building for Production
-
-```bash
-npm run build
-```
-
-This creates a `build` folder with the production build.
-
-### Deploying to GitHub Pages
-
-```bash
-npm run deploy
-```
-
-This builds and deploys the portfolio to GitHub Pages automatically.
-
-## Contact
-
-- **Email**: [rajput.vivek@iitgn.ac.in](mailto:rajput.vivek@iitgn.ac.in)
-- **LinkedIn**: [vivek-rajput-iitgn2ndyear](https://www.linkedin.com/in/vivek-rajput-iitgn2ndyear/)
-- **GitHub**: [Rajput-Vivek-16](https://github.com/Rajput-Vivek-16)
-
-## Skills
-
-### Languages & Libraries
-- Python, C, C++, MATLAB
-- Cantera, NumPy, Pandas, Matplotlib
-
-### Tools
-- Simulink, Ansys Fluent, DWSIM
-- Autodesk Inventor, Polymath
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+📍 [**Live Site**](https://rajput-vivek-16.github.io/Portfolio) • [**GitHub Repo**](https://github.com/Rajput-Vivek-16/Portfolio)
 
 ---
 
-Feel free to connect or collaborate with me!
+## 👨‍🎓 About Me
+
+Junior undergraduate majoring in **Chemical Engineering** with a minor in **Computer Science and Engineering** at **IIT Gandhinagar**. I am passionate about research, problem-solving, and building impactful tools at the intersection of engineering and technology.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React.js, HTML5, CSS3 (Flexbox & Grid)  
+- **Styling**: Custom CSS, responsive layouts  
+- **Tooling**: Create React App, GitHub Pages
+
+---
+
+## 📁 Portfolio Sections
+
+The website includes a brief introduction with academic details and contact links, followed by an "About Me" section that outlines my research interests and technical skills. It showcases my work experience including research internships, selected projects with documentation, and leadership roles under positions of responsibility. There's also a section dedicated to achievements and extra-curricular activities, concluding with a footer for contact and call-to-action.
+
+---
+
+## 🧠 Skills & Tools
+
+**Languages**: Python, C, C++, MATLAB  
+**Libraries**: Cantera, NumPy, Pandas, Matplotlib  
+**Tools**: Ansys Fluent, DWSIM, Simulink, Autodesk Inventor, Polymath
+
+---
+
+## 📫 Contact
+
+- **Email**: [rajput.vivek@iitgn.ac.in](mailto:rajput.vivek@iitgn.ac.in)  
+- **LinkedIn**: [vivek-rajput-iitgn2ndyear](https://www.linkedin.com/in/vivek-rajput-iitgn2ndyear/)  
+- **GitHub**: [Rajput-Vivek-16](https://github.com/Rajput-Vivek-16)
