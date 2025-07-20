@@ -34,6 +34,10 @@ This portfolio showcases my academic journey, research experience, projects, and
 7. **Extra-Curricular Activities**: Community involvement
 8. **Footer**: Contact information and call-to-action
 
+## 🌐 Live Portfolio
+
+**Visit the live portfolio**: [https://rajput-vivek-16.github.io/Portfolio](https://rajput-vivek-16.github.io/Portfolio)
+
 ## Getting Started
 
 ### Prerequisites
@@ -45,8 +49,8 @@ This portfolio showcases my academic journey, research experience, projects, and
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd vivek-rajput-portfolio
+git clone https://github.com/Rajput-Vivek-16/Portfolio.git
+cd Portfolio
 ```
 
 2. Install dependencies:
@@ -68,6 +72,14 @@ npm run build
 ```
 
 This creates a `build` folder with the production build.
+
+### Deploying to GitHub Pages
+
+```bash
+npm run deploy
+```
+
+This builds and deploys the portfolio to GitHub Pages automatically.
 
 ## Contact
 
