@@ -7,11 +7,11 @@
 }
 
 .footer-content {
-  padding: 30px;
+  padding: 25px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 30px;
+  gap: 25px;
 }
 
 .footer-info {
@@ -19,32 +19,32 @@
 }
 
 .footer-info h3 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
   color: white;
 }
 
 .footer-info p {
-  font-size: 1rem;
-  margin-bottom: 20px;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
   opacity: 0.9;
 }
 
 .contact-details {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.95rem;
+  gap: 8px;
+  font-size: 0.9rem;
 }
 
 .contact-icon {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .contact-item a {
@@ -61,20 +61,20 @@
 .footer-actions {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
   align-items: flex-end;
 }
 
 .footer-button {
   display: inline-block;
-  padding: 10px 20px;
-  border-radius: 20px;
+  padding: 8px 16px;
+  border-radius: 18px;
   text-decoration: none;
   font-weight: 500;
   transition: all 0.3s ease;
-  min-width: 140px;
+  min-width: 120px;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 .footer-button.primary {
@@ -104,27 +104,27 @@
 }
 
 .footer-social {
-  padding: 0 30px 20px 30px;
+  padding: 0 25px 15px 25px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  margin-top: 15px;
+  gap: 25px;
+  margin-top: 12px;
 }
 
 .social-link {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   color: white;
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   transition: all 0.3s ease;
-  padding: 8px 15px;
-  border-radius: 15px;
+  padding: 6px 12px;
+  border-radius: 12px;
 }
 
 .social-link:hover {
@@ -139,7 +139,7 @@
 
 .footer-bottom {
   background: rgba(0, 0, 0, 0.2);
-  padding: 15px 30px;
+  padding: 12px 25px;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -155,8 +155,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 25px 20px;
-    gap: 25px;
+    padding: 20px 15px;
+    gap: 20px;
   }
   
   .footer-info {
@@ -171,12 +171,12 @@
   }
   
   .footer-button {
-    min-width: 120px;
-    font-size: 0.85rem;
+    min-width: 110px;
+    font-size: 0.8rem;
   }
   
   .footer-social {
-    padding: 15px 20px;
+    padding: 12px 15px;
   }
   
   .social-links {
@@ -186,7 +186,7 @@
   }
   
   .footer-bottom {
-    padding: 12px 20px;
+    padding: 10px 15px;
   }
   
   .contact-details {
