@@ -15,14 +15,6 @@ const Header = () => {
              <strong>Junior Undergraduate</strong> pursuing a major in <strong>Chemical Engineering</strong> with a minor in <strong>Computer Science and Engineering</strong> at <strong>IIT Gandhinagar</strong>.
           </p>
           
-          // <div className="academic-details">
-          //   <h3>Academic Details</h3>
-          //   <ul>
-          //     <li><strong>B.Tech, IIT Gandhinagar (2023-Present):</strong> 8.5 CPI</li>
-          //     <li><strong>Class XII, Riverdale Academy, Surat (2022-2023):</strong> 73.5%</li>
-          //     <li><strong>Class X, Good Shepherd High School, Surat (2020-2021):</strong> 92%</li>
-          //   </ul>
-          // </div>
 
           <div className="quick-links">
             <button 
@@ -31,7 +23,7 @@ const Header = () => {
             >
               About Me
             </button>
-            <a href="https://drive.google.com/file/d/1xhVtNKA13tUvikCS99Rl_3p2jB-O4hdj/view" 
+            <a href="https://drive.google.com/file/d/12FCNaIsbs3hW27JuOF7dLOAx7MdcYej0/view?usp=sharing" 
                target="_blank" 
                rel="noopener noreferrer" 
                className="button secondary">
